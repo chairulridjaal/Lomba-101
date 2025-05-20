@@ -1,6 +1,7 @@
 a123b,Kevin,Sepeda,26,L,Jl. Kebon Jeruk,08123456700
 b234c,Luna,E-Sport,22,P,Jl. Anggrek,08123456701
 c345d,Reza,Lari,30,L,Jl. Wijaya,08123456702
+d00ef,Anjay,E-Sport,19,L,Jl. Wijaya Kusuma X,0812102822297
 d456e,Sasha,Voli,21,P,Jl. Melati,08123456703
 e567f,Tommy,Sepeda,28,L,Jl. Cendana,08123456704
 f678g,Maya,E-Sport,25,P,Jl. Mawar,08123456705

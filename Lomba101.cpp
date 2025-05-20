@@ -10,11 +10,8 @@
 #include <functional>
 #include <chrono>
 #include <thread>
-#include <queue>
-#include <stack>
 
 #define GOLD "\033[33m"
-#define RED "\033[31m"
 #define RESET "\033[0m"
 
 using namespace std;
@@ -30,13 +27,83 @@ struct Peserta
     string no_hp;
 };
 
+class queuePeserta
+{
+private:
+    vector<Peserta> data;
+
+public:
+    bool empty() const
+    {
+        return data.empty();
+    }
+
+    size_t size() const
+    {
+        return data.size();
+    }
+
+    void push(const Peserta &p)
+    {
+        data.push_back(p);
+    }
+
+    void pop()
+    {
+        if (!data.empty())
+        {
+            data.erase(data.begin());
+        }
+    }
+
+    Peserta& front()
+    {
+        return data.front();
+    }
+};
+
+class stackPeserta
+{
+private:
+    vector<Peserta> data;
+
+public:
+    bool empty() const
+    {
+        return data.empty();
+    }
+
+    size_t size() const
+    {
+        return data.size();
+    }
+
+    void push(const Peserta &p)
+    {
+        data.push_back(p);
+    }
+
+    void pop()
+    {
+        if (!data.empty())
+        {
+            data.pop_back();
+        }
+    }
+
+    Peserta &top()
+    {
+        return data.back();
+    }
+};
+
 class Lomba
 {
 private:
     map<string, Peserta> peserta;
     vector<string> daftarLomba;
-    queue<Peserta> pesertaQueue;
-    stack<Peserta> pembatalanStack;
+    queuePeserta pesertaQueue;
+    stackPeserta PembatalanStack;
 
     int no_reg = 1;
 
@@ -415,7 +482,7 @@ public:
         cin >> choice;
         if (toupper(choice) == 'Y')
         {
-            pembatalanStack.push(peserta[no_reg_input]);
+            PembatalanStack.push(peserta[no_reg_input]);
             peserta.erase(no_reg_input);
             ascii();
             cout << "================================\n";
