@@ -1,0 +1,20 @@
+a123b,Kevin,Sepeda,26,L,Jl. Kebon Jeruk,08123456700
+b234c,Luna,E-Sport,22,P,Jl. Anggrek,08123456701
+c345d,Reza,Lari,30,L,Jl. Wijaya,08123456702
+d456e,Sasha,Voli,21,P,Jl. Melati,08123456703
+e567f,Tommy,Sepeda,28,L,Jl. Cendana,08123456704
+f678g,Maya,E-Sport,25,P,Jl. Mawar,08123456705
+g789h,Brandon,Lari,23,L,Jl. Flamboyan,08123456706
+h890i,Elaine,Voli,27,P,Jl. Kemuning,08123456707
+i901j,Dion,Sepeda,32,L,Jl. Tanjung,08123456708
+j012k,Chika,E-Sport,24,P,Jl. Rambutan,08123456709
+k123l,Andra,Lari,20,L,Jl. Belimbing,08123456710
+l234m,Yuki,Sepeda,29,P,Jl. Mangga,08123456711
+m345n,Fahri,Voli,33,L,Jl. Nangka,08123456712
+n456o,Nadia,E-Sport,26,P,Jl. Durian,08123456713
+o567p,Gilang,Lari,31,L,Jl. Salak,08123456714
+p678q,Anisa,Sepeda,19,P,Jl. Rambutan Indah,08123456715
+q789r,Farhan,Voli,34,L,Jl. Cempaka,08123456716
+r890s,Tiara,E-Sport,20,P,Jl. Kenanga,08123456717
+s901t,Ryan,Lari,36,L,Jl. Mawar Putih,08123456718
+t012u,Vina,Sepeda,22,P,Jl. Anggrek Merah,08123456719
